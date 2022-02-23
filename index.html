@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reddit Clone By Amit</title>
     <link rel="shortcut icon" href="https://www.redditinc.com/assets/images/site/reddit-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -41,6 +43,34 @@
             <li>Logout </li>
         </ul>
     </nav>
+
+    <section>
+        <aside>
+            <div class="post-votes">
+                <div id="up" onclick="upVotes()"><i class="fas fa-angle-up"></i></div>
+                <span id="vote">1200</span>
+                <div id="down" onclick="downVotes()"><i class="fas fa-angle-down"></i></div>
+            </div>
+        </aside>
+        <main>
+            <div class="post">
+                <div class="post-title">
+                    <a href="#">Make a riddit clone</a>
+                </div>
+                <div class="post-body">
+                    <p>Submitted 3 Hours ago by <a href="#">amitsingh44</a> to <a href="#">r/r/reddit</a></p>
+                </div>
+                <div class="post-options">
+                    <span>Comment</span>
+                    <span>Share</span>
+                    <span>Save</span>
+                    <span>Hide</span>
+                    <span>Report</span>
+                </div>
+            </div>
+        </main>
+        <div class="left-sidebar"></div>
+    </section>
     <script src="script.js"></script>
 </body>
 

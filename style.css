@@ -40,6 +40,7 @@ nav img {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -63,4 +64,36 @@ nav ul li {
 
 .user-profile li {
     color: #5f99cf;
+}
+
+section {
+    width: 90%;
+    margin: 3vw auto;
+    display: flex;
+}
+
+.post-votes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post {
+    margin-left: 2vw;
+}
+
+.post-title {
+    margin-bottom: 0.5vw;
+}
+
+.post-body a {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+.post-options {
+    color: grey;
+    font-weight: 600;
+    margin: 0.5vw 0;
 }
