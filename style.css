@@ -24,3 +24,43 @@ header ul li:hover {
     text-decoration: underline;
     color: royalblue;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: thick solid #5f99cf;
+    background-color: #cee3f8;
+}
+
+nav img {
+    width: 75px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.trending {
+    font-weight: 600;
+}
+
+.trending li {
+    background-color: #fff;
+    padding: 0 0.25vw;
+}
+
+.user-profile {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.user-profile li {
+    color: #5f99cf;
+}
