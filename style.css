@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0 1vw;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #000;
+}
+
+header ul {
+    margin-left: 1vw;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
