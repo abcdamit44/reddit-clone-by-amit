@@ -70,6 +70,11 @@ section {
     width: 90%;
     margin: 3vw auto;
     display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 10%;
 }
 
 .post-votes {
@@ -77,6 +82,16 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#vote {
+    color: royalblue;
+    font-weight: 600;
+    margin: 0.25vw 0;
+}
+
+main {
+    width: 60%;
 }
 
 .post {
@@ -96,4 +111,41 @@ section {
     color: grey;
     font-weight: 600;
     margin: 0.5vw 0;
+}
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-sidebar .search-bar {
+    margin-bottom: 00.25vw;
+}
+
+.left-sidebar button {
+    padding: 0.55vw;
+    color: #fff;
+    background-color: #4682b4;
+    border: none;
+    outline: none;
+    margin: 00.25vw 0;
+}
+
+.progress {
+    margin-top: 0.5vw;
+    border: 1px solid grey;
+    padding: 0.25vw;
+    text-align: center;
+}
+
+.progress span {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+
+.progress progress {
+    margin: 0.5vw 0;
+    color: red;
 }
