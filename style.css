@@ -91,7 +91,7 @@ aside {
 }
 
 main {
-    width: 60%;
+    width: 50%;
 }
 
 .post {
@@ -116,19 +116,31 @@ main {
 .left-sidebar {
     display: flex;
     flex-direction: column;
+    width: 25%;
 }
 
 .left-sidebar .search-bar {
     margin-bottom: 00.25vw;
 }
 
-.left-sidebar button {
-    padding: 0.55vw;
-    color: #fff;
-    background-color: #4682b4;
-    border: none;
+.left-sidebar .search-bar input {
+    padding: 0.25vw;
+    width: 90%;
+}
+
+.left-sidebar .post-btn {
+    padding: 1rem;
+    background-color: #def2ff;
+    color: #4682b4;
+    border: 1px solid blue;
     outline: none;
     margin: 00.25vw 0;
+    border-radius: 5px;
+}
+
+.left-sidebar .post-btn:hover {
+    background-color: #3a5eca;
+    color: #fff;
 }
 
 .progress {
@@ -143,9 +155,25 @@ main {
     text-align: center;
     font-weight: 600;
     font-size: 2.5vw;
+    color: grey;
 }
 
-.progress progress {
+.progress .progress-btn {
     margin: 0.5vw 0;
-    color: red;
+    padding: 0.5vw;
+    width: 80%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f3e287;
+}
+
+.support button {
+    font-size: 0.8rem;
+    margin: 0.5vw auto;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(43, 43, 43);
+    padding: 0 0.15vw;
+    box-shadow: 1px 1px 1px 1px #8888;
 }
